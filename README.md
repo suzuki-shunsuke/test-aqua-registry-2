@@ -34,11 +34,11 @@ aqua.yaml
 # aqua - Declarative CLI Version Manager
 # https://aquaproj.github.io/
 registries:
-  - name: <REGISTRY_NAME>
+  - name: custom
     type: github_content
-    repo_owner: <REPO_OWNER>
-    repo_name: <REPO_NAME>
-    ref: v0.1.0 # renovate: depName=<REPO_OWENR>/<REPO_NAME>
+    repo_owner: suzuki-shunsuke
+    repo_name: test-aqua-registry-2
+    ref: v0.1.0 # renovate: depName=<REPO_OWENR>/test-aqua-registry-2
     path: registry.yaml
 packages:
 ```
@@ -53,8 +53,8 @@ About Global Configuration, please see the document.
 Checkout this repository and set the environment variable `AQUA_GLOBAL_CONFIG`.
 
 ```console
-$ git checkout https://github.com/<REPO_OWNER>/<REPO_NAME>
-$ export AQUA_GLOBAL_CONFIG=$PWD/<REPO_NAME>/aqua-all.yaml:$AQUA_GLOBAL_CONFIG
+$ git checkout https://github.com/suzuki-shunsuke/test-aqua-registry-2
+$ export AQUA_GLOBAL_CONFIG=$PWD/test-aqua-registry-2/aqua-all.yaml:$AQUA_GLOBAL_CONFIG
 ```
 
 ## LICENSE
