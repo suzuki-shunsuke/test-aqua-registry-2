@@ -38,7 +38,7 @@ registries:
     type: github_content
     repo_owner: suzuki-shunsuke
     repo_name: test-aqua-registry-2
-    ref: v0.1.0 # renovate: depName=<REPO_OWENR>/test-aqua-registry-2
+    ref: v0.1.0 # renovate: depName=suzuki-shunsuke/test-aqua-registry-2
     path: registry.yaml
 packages:
 ```
