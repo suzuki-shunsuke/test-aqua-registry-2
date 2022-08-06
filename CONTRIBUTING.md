@@ -17,8 +17,8 @@ So GitHub CLI is optional.
 Checkout the repository and install [aqua-registry CLI](https://github.com/aquaproj/registry-tool).
 
 ```console
-$ git checkout https://github.com/<REPO_OWENR>/<REPO_NAME>
-$ cd <REPO_NAME>
+$ git checkout https://github.com/<REPO_OWENR>/test-aqua-registry-2
+$ cd test-aqua-registry-2
 $ aqua i -l # Install aqua-registry CLI
 ```
 
