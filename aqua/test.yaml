@@ -8,4 +8,4 @@ registries:
     type: local
     path: ../registry.yaml
 packages:
-  - name: suzuki-shunsuke/ci-info@v2.1.2
+  - name: suzuki-shunsuke/ci-info@v2.1.3
