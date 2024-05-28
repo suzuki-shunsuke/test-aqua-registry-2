@@ -10,4 +10,4 @@ registries:
 packages:
   - import: aqua-local.yaml
   - name: aquaproj/registry-tool@v0.2.5
-  - name: rhysd/actionlint@v1.7.0
+  - name: rhysd/actionlint@v1.7.1
