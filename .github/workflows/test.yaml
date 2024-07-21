@@ -33,7 +33,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: aquaproj/aqua-installer@v1.1.1-0
         with:
-          aqua_version: v1.21.0
+          aqua_version: v1.38.0
 
       - name: Run ci-info and update environment variables
         # TODO Run the command without `aqua exec`.
